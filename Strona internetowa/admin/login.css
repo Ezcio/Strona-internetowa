@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddf6f8;
+  color: white;
+}
+
+.box {
+  transform: translateY(-10vh);
+  border-radius: 10px;
+  height: 40vh;
+  width: 50vh;
+  background-color: #0098a3;
+  box-shadow: 0px 0px 14px 8px rgba(0, 0, 0, 0.31);
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px;
+  height: 30px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.zaloguj {
+  width: 20%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateX(calc(33vh / 2));
+}
+
+.login {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-size: 36px;
+}
